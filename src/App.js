@@ -5,7 +5,7 @@ import QuoteDetail from "./components/pages/QuoteDetail"
 import NewQuote from "./components/pages/NewQuote"
 import Layout from "./components/layout/Layout"
 import NotFound from "./components/pages/NotFound"
-
+import CheckBox from "./components/pages/CheckBox"
 function App() {
 	return (
 		<Layout>
@@ -21,6 +21,9 @@ function App() {
 				</Route>
 				<Route path="/new-quote">
 					<NewQuote />
+				</Route>
+				<Route path="/testPage">
+					<CheckBox />
 				</Route>
 				<Route path="*">
 					<NotFound />
